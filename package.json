@@ -1,0 +1,30 @@
+{
+  "name": "node-epics-ca",
+  "version": "0.0.1",
+  "description": "Lightweight EPICS FFI Channel Access client for Node.js",
+  "keywords": [
+    "EPICS",
+    "Channel Access",
+    "CA",
+    "Node.js",
+    "JavaScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanglin86769/node-epics-ca.git"
+  },
+  "homepage": "https://github.com/wanglin86769/node-epics-ca",
+  "author": "Lin Wang <wanglin@ihep.ac.cn>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "koffi": "^2.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

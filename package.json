@@ -1,6 +1,6 @@
 {
   "name": "node-epics-ca",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "EPICS Channel Access client for Node.js",
   "keywords": [
     "EPICS",

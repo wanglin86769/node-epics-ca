@@ -1,13 +1,14 @@
 {
   "name": "node-epics-ca",
   "version": "0.0.1",
-  "description": "Lightweight EPICS FFI Channel Access client for Node.js",
+  "description": "EPICS Channel Access client for Node.js",
   "keywords": [
     "EPICS",
     "Channel Access",
     "CA",
     "Node.js",
-    "JavaScript"
+    "JavaScript",
+    "FFI"
   ],
   "repository": {
     "type": "git",

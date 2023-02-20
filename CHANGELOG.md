@@ -2,9 +2,19 @@
 
 ## Version history of node-epics-ca
 
-### 0.0
+### v0.1
 
-#### 0.0.1
+#### v0.1.0
+
+**Main changes:**
+
+- Added create() function for monitor
+- Removed unnecessary ca_pend_event() invocations
+- Updated README file
+
+### v0.0
+
+#### v0.0.1
 
 **Initial version:**
 

@@ -4,6 +4,12 @@
 
 ### v0.1
 
+#### v0.1.1
+
+**Main changes:**
+
+- Simplified the usage of monitor
+
 #### v0.1.0
 
 **Main changes:**

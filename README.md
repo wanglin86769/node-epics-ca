@@ -98,6 +98,21 @@ const CA = require('node-epics-ca');
 })()
 ```
 
+simpler way for monitor
+
+
+```javascript
+const CA = require('node-epics-ca');
+(async () => {
+    CA.monitor('calcExample', function(data) {
+        console.log('Current:', data);
+    });
+    setTimeout(function() {
+        console.log("Done!!!");
+    }, 3600 * 1000);
+})()
+```
+
 ### info
 
 ```javascript
@@ -161,7 +176,7 @@ const CA = require('node-epics-ca');
 ### monitor
 
 ```javascript
-const CA = require('../node-epics-ca/index');
+const CA = require('node-epics-ca');
 let pv = new CA.Channel('calcExample');
 pv.create();
 pv.on('monitor', function() {

@@ -21,9 +21,9 @@
     "start": "node main.js",
     "dev": "nodemon main.js"
   },
-  "license": "LGPL-3.0",
+  "license": "MIT",
   "dependencies": {
-    "koffi": "^2.3.4"
+    "koffi": "^2.3.14"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

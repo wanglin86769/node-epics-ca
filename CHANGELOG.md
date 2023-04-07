@@ -4,6 +4,13 @@
 
 ### v0.1
 
+#### v0.1.2
+
+**Main changes:**
+
+- Fixed the issue that DLLs cannot be loaded on Windows
+- Relicense under MIT license
+
 #### v0.1.1
 
 **Main changes:**

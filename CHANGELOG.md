@@ -4,6 +4,16 @@
 
 ### v0.1
 
+#### v0.1.3
+
+**Main changes:**
+
+- Added a setTimeout() delay as a workaround to reduce the probability of deadlock when calling ca_clear_channel
+
+**Other changes:**
+
+- Added examples for basic usage and web service usage
+
 #### v0.1.2
 
 **Main changes:**

@@ -28,11 +28,11 @@ https://github.com/pyepics/pyepics
 
 # Supported platforms
 
-* Windows 64-bit
+* Windows x86_64
 
-* Linux 64-bit
+* Linux x86_64
 
-* macOS 64-bit
+* macOS x86_64
 
 # Installation
 
@@ -215,8 +215,4 @@ let pv = new CA.Channel('calcExample');
 ```
 
 # License
-The license of this project is the same as koffi (https://www.npmjs.com/package/koffi) as follows,
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-Find more information here: https://www.gnu.org/licenses/
+MIT license

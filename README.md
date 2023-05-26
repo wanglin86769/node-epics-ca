@@ -43,7 +43,7 @@ npm install node-epics-ca
 `NODE_EPICS_CA_LIBCA`, `NODE_EPICS_CA_PEND_IO_DELAY` or `NODE_EPICS_CA_PEND_EVENT_DELAY` can be set optionally, for example,
 
 ```bash
-export NODE_EPICS_LIBCA=/home/debian/epics/base-3.15.9/lib/linux-x86_64/libca.so
+export NODE_EPICS_CA_LIBCA=/home/debian/epics/base-3.15.9/lib/linux-x86_64/libca.so
 export NODE_EPICS_CA_PEND_IO_DELAY=1
 export NODE_EPICS_CA_PEND_EVENT_DELAY=0.1
 ```

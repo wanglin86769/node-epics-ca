@@ -227,13 +227,21 @@ let pv = new CA.Channel('calcExample');
 | 200 | 5.446 | 5.443 | 5.439 | 0.007 |
 | 500 | 13.611 | 13.588 | 13.582 | 0.014 |
 
-The test environment is as follows,
+The test environment is as follows, the client and IOC are in different virtual machines and different subsets.
 
 * Debian Linux 10 (buster)
 
 * Intel Core Processor (Haswell), 4-core, 2.4GHz
 
 * 8GB memory
+
+# Note
+
+## Limitation of camonitor
+
+koffi package has limitation for callback count, the maximum is 1024 in version 2.3.20 and increases to 8192 in version 2.3.21-beta.2.
+
+In order to monitor one PV, two callbacks are needed, they are connection state change callback and value change callback, which means only 512 PVs can be monitored at the same if maximum callback is 1024 and 4096 PVs if maximum is 8192.
 
 # License
 MIT license

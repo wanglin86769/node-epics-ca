@@ -214,5 +214,26 @@ let pv = new CA.Channel('calcExample');
 })()
 ```
 
+# Usage
+
+## Performance test for caget, caput, camonitor and cainfo
+
+| Number of PVs | caget (seconds) | caput (seconds) | cainfo(seconds) | camonitor (seconds) |
+|------|-------------|-------------|-------------|-------------|
+| 1 | 0.045 | 0.048 | 0.037 | 0.001 |
+| 10 | 0.279 | 0.286 | 0.282 | 0.001 |
+| 50 | 1.367 | 1.366 | 1.363 | 0.003 |
+| 100 | 2.724 | 2.730 | 2.719 | 0.004 |
+| 200 | 5.446 | 5.443 | 5.439 | 0.007 |
+| 500 | 13.611 | 13.588 | 13.582 | 0.014 |
+
+The test environment is as follows,
+
+* Debian Linux 10 (buster)
+
+* Intel Core Processor (Haswell), 4-core, 2.4GHz
+
+* 8GB memory
+
 # License
 MIT license

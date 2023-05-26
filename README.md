@@ -214,7 +214,7 @@ let pv = new CA.Channel('calcExample');
 })()
 ```
 
-# Usage
+# Performance
 
 ## Performance test for caget, caput, camonitor and cainfo
 

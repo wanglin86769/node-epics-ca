@@ -227,6 +227,15 @@ let pv = new CA.Channel('calcExample');
 | 200 | 5.446 | 5.443 | 5.439 | 0.007 |
 | 500 | 13.611 | 13.588 | 13.582 | 0.014 |
 
+## Performance test for single caget
+
+| Measurement for caget | Time in seconds |
+|------|-------------|
+| create() | 0 |
+| connect() | 0.033 |
+| get() | 0.005 |
+| disconnect() | 0.003 |
+
 The test environment is as follows, the client and IOC are in different virtual machines and different subsets.
 
 * Debian Linux 10 (buster)

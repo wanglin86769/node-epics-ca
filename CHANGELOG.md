@@ -2,6 +2,11 @@
 
 ## Version history of node-epics-ca
 
+### v0.2.1
+
+- Replaced the deprecated callback() function with proto() function
+- Fixed the 'TypeError: Unexpected <type_41> * value, expected chanId' issue
+
 ### v0.2.0
 
 - Fixed the deadlock issue

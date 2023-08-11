@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "koffi": "^2.3.14"
+    "koffi": "^2.5.11"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

@@ -2,6 +2,10 @@
 
 ## Version history of node-epics-ca
 
+### v0.2.2
+
+- Fixed the 'TypeError: Unexpected <type_41> * value, expected evid' issue
+
 ### v0.2.1
 
 - Replaced the deprecated callback() function with proto() function

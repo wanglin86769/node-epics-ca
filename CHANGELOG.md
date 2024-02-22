@@ -2,6 +2,12 @@
 
 ## Version history of node-epics-ca
 
+### v0.2.3
+
+- Add support for getting the String value for ENUM data type
+- Fix the issue that nativeType for ENUM data type is incorrect
+- Update README
+
 ### v0.2.2
 
 - Fixed the 'TypeError: Unexpected <type_41> * value, expected evid' issue

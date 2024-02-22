@@ -1,6 +1,6 @@
 {
   "name": "node-epics-ca",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "EPICS Channel Access client for Node.js",
   "keywords": [
     "EPICS",
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "koffi": "^2.5.11"
+    "koffi": "^2.8.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

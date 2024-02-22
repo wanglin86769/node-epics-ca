@@ -214,6 +214,51 @@ let pv = new CA.Channel('calcExample');
 })()
 ```
 
+## As string value
+
+### get
+
+```javascript
+const CA = require('node-epics-ca');
+(async () => {
+    try {
+        console.log(await CA.get('calcExample', true));
+    } catch (error) {
+        console.error(`get failed due to ${error}`);
+    }
+})()
+```
+
+### put
+
+```javascript
+const CA = require('node-epics-ca');
+(async () => {
+    try {
+        console.log(await CA.get('calcExample'));
+        await CA.put("calcExample", 'One', true);
+        console.log(await CA.get('calcExample'));
+    } catch (error) {
+        console.error(`put failed due to ${error}`);
+    }
+})()
+```
+
+### monitor
+
+```javascript
+const CA = require('node-epics-ca');
+(async () => {
+    CA.monitor('calcExample', function(data) {
+        console.log('Current:', data);
+    }, true);
+    // Test purpose only, prevent the node.js main thread from exiting
+    setTimeout(function() {
+        console.log("Done!!!");
+    }, 3600 * 1000);
+})()
+```
+
 # Performance
 
 ## Performance test for caget, caput, camonitor and cainfo
